@@ -4,10 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt build && nuxt generate",
     "start": "node server.js",
-    "generate": "nuxt generate",
-    "postinstall": "npm run build && npm run generate"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/emotion": "^0.1.0",
